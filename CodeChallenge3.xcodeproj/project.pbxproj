@@ -16,6 +16,7 @@
 		938C360E19F02F62000F4F50 /* StationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C360D19F02F62000F4F50 /* StationsListViewController.m */; };
 		938C361119F02F6E000F4F50 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C361019F02F6E000F4F50 /* MapViewController.m */; };
 		938C361319F03387000F4F50 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938C361219F03387000F4F50 /* MapKit.framework */; };
+		D0D7424D1B18D8FD00457ED5 /* BikeStop.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D7424C1B18D8FD00457ED5 /* BikeStop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		938C360F19F02F6E000F4F50 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
 		938C361019F02F6E000F4F50 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
 		938C361219F03387000F4F50 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D0D7424B1B18D8FD00457ED5 /* BikeStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeStop.h; sourceTree = "<group>"; };
+		D0D7424C1B18D8FD00457ED5 /* BikeStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeStop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				938C35EB19F02E16000F4F50 /* AppDelegate.m */,
 				938C360C19F02F62000F4F50 /* StationsListViewController.h */,
 				938C360D19F02F62000F4F50 /* StationsListViewController.m */,
+				D0D7424B1B18D8FD00457ED5 /* BikeStop.h */,
+				D0D7424C1B18D8FD00457ED5 /* BikeStop.m */,
 				938C360F19F02F6E000F4F50 /* MapViewController.h */,
 				938C361019F02F6E000F4F50 /* MapViewController.m */,
 				938C35EA19F02E16000F4F50 /* AppDelegate.h */,
@@ -230,6 +235,7 @@
 			files = (
 				938C360E19F02F62000F4F50 /* StationsListViewController.m in Sources */,
 				938C35EC19F02E16000F4F50 /* AppDelegate.m in Sources */,
+				D0D7424D1B18D8FD00457ED5 /* BikeStop.m in Sources */,
 				938C35E919F02E16000F4F50 /* main.m in Sources */,
 				938C361119F02F6E000F4F50 /* MapViewController.m in Sources */,
 			);
@@ -424,6 +430,7 @@
 				938C360819F02E16000F4F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		938C360919F02E16000F4F50 /* Build configuration list for PBXNativeTarget "CodeChallenge3Tests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				938C360B19F02E16000F4F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

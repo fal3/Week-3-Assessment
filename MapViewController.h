@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StationsListViewController.h"
+#import <CoreLocation/CoreLocation.h>
+
+#import "BikeStop.h"
 
 @interface MapViewController : UIViewController
+
+@property BikeStop * bike;
+
+@property NSMutableString *directions;
 
 @end
